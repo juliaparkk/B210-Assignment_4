@@ -1,7 +1,7 @@
 # B210-Assignment_4
-#a What is the purpose of this program(s)? 
+##a What is the purpose of this program(s)? 
 The purpose of this program is to write a function that prints the names of songs that are within a specified range of energy.
-#b What does the program do? What are the input(s)? What are the outputs(s)
+##b What does the program do? What are the input(s)? What are the outputs(s)
 The program: 
 1. Reads a CSV of Taylor Swift tracks (default file: taylor_discography.csv).
 2. Robustly parses CSV lines (handles double-quoted fields and commas inside quotes).
@@ -11,7 +11,7 @@ The program:
 6. Prints the matching track names to the console.
 The primary input is the taylor_discography.csv file. It also takes the minimum and maximum expected numeric (float) energy values, typically in the [0.0, 1.0] range.
 The outputs are printed track names (one per line) for all rows where the energy is within the requested range.
-#c How do you use the program?
+##c How do you use the program?
 1. Open PowerShell (or CMD).
 2. Run the script with Python:
  If you have Python on PATH:
